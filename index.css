@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+body{
+    color: white;
+}
+header{
+    display: flex;
+    padding: 10px 20px;
+}
+.cntrLogo{
+    display: flex;
+    width: 40%;
+}
+.cntrLogo img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.cntrOption{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.cntrOpitonsMenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.cntrOption p{
+    margin: 0px 10px;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .8em;
+    border-radius: 20px 20px 0px 0px;
+}
+.cntrOption p:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.cntrOption svg{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cntrLeft{
+}
+
+.cntrName{
+
+}
+.cntrNomeTag{
+    display: flex;
+    align-items: flex-start;
+}
+.cntrName h1{
+    font-size: 3em;
+}
+.tag{
+    display: flex;
+    margin-left: 60px;
+    border: 1px solid white;
+    font-size: .8em;
+    padding: 6px 12px;
+}
+.cntrExponencial{
+    display: flex;
+    align-items: flex-start;
+}
+.cntrExponencial p{
+    
+}
+.cntrExponencial p:nth-child(1){
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-right: 6px;
+}
+.cntrExponencial p:nth-child(1) span{
+    font-size: 1.4em;
+}
+
+.cntrExponencial p:nth-child(2){
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 4px;
+}
+.cntrExponencial p:nth-child(3){
+    font-size: .5em;
+}
+
+
+
+
+
+.cntrRight{
+
+}
+.cntrImgMain{
+    width: 584px;
+    height: 528px;
+}
+.cntrImgMain img{
+    position: absolute;
+    bottom: 0px;
+}
+.cntrLinks{
+    display: flex;
+    margin-top: 60px;
+    font-size: .9em;
+}
+.cntrLinks p{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.cntrLinks svg{
+    width: 8px;
+    height: 8px;
+}
+
+
+.number{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
